@@ -15,6 +15,6 @@ ngkm_predict(input, model)
 A data table with the predictions and their statistics.
 }
 \description{
-This function returns predictions give an input text and a model. The number
+This function returns predictions given an input text and a model. The number
 of predictions will depend on the model
 }

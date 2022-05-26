@@ -3,14 +3,9 @@
 \docType{data}
 \name{ngkmodel}
 \alias{ngkmodel}
-\title{A model trained using about 3.2 million documents}
+\title{ngkmodel}
 \format{
-a ngkm model:
-\describe{
-\item{price}{price, in US dollars}
-\item{carat}{weight of the diamond, in carats}
-...
-}
+a ngkm model
 }
 \source{
 \url{https://github.com/Harnkal/DS_CapstoneProject}
@@ -19,6 +14,7 @@ a ngkm model:
 ngkmodel
 }
 \description{
-The model was trained with ngrams = 5, lambda = 0.75, k = 1 an npred = 6.
+A model trained using about 3.2 million documents. The model was trained with
+ngrams = 5, lambda = 0.75, k = 1 an npred = 6.
 }
 \keyword{datasets}
