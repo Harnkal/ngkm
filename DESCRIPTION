@@ -1,6 +1,6 @@
 Package: ngkm
 Title: Ngram Katz's Model package
-Version: 0.0.0.9001
+Version: 0.0.0.1
 Authors@R: 
     person("Rafael", "Silva", , "rafael.rochasil@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
@@ -9,9 +9,8 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
-Imports:
-    data.table (>= 1.14.2),
-    quanteda (>= 3.2.1)
 Depends: 
     R (>= 2.10)
+    data.table (>= 1.14.2),
+    quanteda (>= 3.2.1)
 LazyData: true
