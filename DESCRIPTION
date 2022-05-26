@@ -1,6 +1,6 @@
 Package: ngkm
 Title: Ngram Katz's Model package
-Version: 0.0.0.1
+Version: 0.0.0.11
 Authors@R: 
     person("Rafael", "Silva", , "rafael.rochasil@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
