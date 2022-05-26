@@ -1,0 +1,17 @@
+Package: ngkm
+Title: Ngram Katz's Model package
+Version: 0.0.0.9000
+Authors@R: 
+    person("Rafael", "Silva", , "rafael.rochasil@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This is my implementation of the the Katz's back-off modeling technique (at least my undertanding of it). This can be used to train and evaluate you models, aswell as predict new text from an input text.
+License: use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports:
+    data.table (>= 1.14.2),
+    quanteda (>= 3.2.1)
+Depends: 
+    R (>= 2.10)
+LazyData: true
