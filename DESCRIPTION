@@ -1,10 +1,14 @@
 Package: ngkm
-Title: Ngram Katz's Model package
-Version: 0.0.0.11
+Title: Ngram Katz's (inspired) Model package
+Version: 0.0.0.12
 Authors@R: 
     person("Rafael", "Silva", , "rafael.rochasil@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This is my implementation of the the Katz's back-off modeling technique (at least my undertanding of it). This can be used to train and evaluate you models, aswell as predict new text from an input text.
+Description: 
+    This is my implementation of the a next word predicting and text generation. 
+    This is not a Katz's Back-off model, but it is inspired by it, more over, 
+    this is not a stupid back-off either. This can be used to train and evaluate 
+    you models, aswell as predict new text from an input text.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
