@@ -14,17 +14,15 @@ ngkm_predict <- function(input, model) {
 
     search_fields <- paste("word_", (model$ngrams-1):1, sep = "")
 
-    pred <- model$pred_table
-
     for (i in 1:(model$ngrams-1)) {
-        pred <- pred[get(search_fields[i]) == pred_tokens[i]|get(search_fields[i])== "<NA>",]
+        model$pred_table <- model$pred_table[get(search_fields[i]) == pred_tokens[i]|get(search_fields[i])== "<NA>",]
     }
 
-    pred <- setorder(pred, -adjprob)
+    model$pred_table <- setorder(model$pred_table, -adjprob)
 
-    pred <- pred[, head(.SD, 1), by = "word"]
+    model$pred_table <- model$pred_table[, head(.SD, 1), by = "word"]
 
-    pred <- head(pred, model$npred)
+    model$pred_table <- head(model$pred_table, model$npred)
 
-    return(pred)
+    return(model$pred_table)
 }
