@@ -15,6 +15,6 @@ ngkmodel
 }
 \description{
 A model trained using about 3.2 million documents. The model was trained with
-ngrams = 5, lambda = 0.75, k = 1 an npred = 6.
+ngrams = 5, lambda = 0.75, k = 3 an npred = 6.
 }
 \keyword{datasets}

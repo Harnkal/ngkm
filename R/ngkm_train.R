@@ -77,7 +77,7 @@ ngkm_train <- function(token_object, ngrams = 2, lambda = 0.4, k = 0, npred = 3,
 #' ngkmodel
 #'
 #' A model trained using about 3.2 million documents. The model was trained with
-#' ngrams = 5, lambda = 0.75, k = 1 an npred = 6.
+#' ngrams = 5, lambda = 0.75, k = 3 an npred = 6.
 #'
 #' @format a ngkm model
 #' @source \url{https://github.com/Harnkal/DS_CapstoneProject}
